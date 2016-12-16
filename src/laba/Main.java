@@ -40,7 +40,7 @@ public class Main {
             buffer = fileRead.readLine();
         }
         Passwords pass = new Passwords(filePasswords);
-        pass.codePasswords(filePasswords);
+        pass.codePasswords();
         System.out.println("Введите пароль:");
         String checkPassword = consoleIn.next();
         while (true) {

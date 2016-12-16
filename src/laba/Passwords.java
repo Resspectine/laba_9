@@ -44,9 +44,9 @@ public class Passwords {
         return false;
     }
 
-    public void codePasswords(File file) {
+    public void codePasswords() {
         try {
-            FileWriter fstream1 = new FileWriter(file);
+            FileWriter fstream1 = new FileWriter("codedPasswords.txt");
             BufferedWriter out1 = new BufferedWriter(fstream1);
             out1.write("");
             for (String checkerString :
